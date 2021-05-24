@@ -1,6 +1,3 @@
-from selenium import webdriver
-
-
 class LoginPage():
     # Define all the locators of the element
     email_textbox_id = "Email"
