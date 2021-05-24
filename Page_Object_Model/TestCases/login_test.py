@@ -1,12 +1,13 @@
 from selenium import webdriver
 import unittest
 import HtmlTestRunner
-from Page_Object_Model.Pages.login_page import LoginPage
 import sys  # this is imported to et the PATH environment variable value
-import time
-
 # Set PATH environment variable value to current folder location
-# sys.path.append("/Users/animeshmukherjee/PycharmProjects/pythonProject/Unit_Test_Page_Object_Model")
+# To run the program in terminal we need to set the value of PATH variable to the current project location
+# HTML report will only generate if we run the program in terminal
+sys.path.append("/Users/animeshmukherjee/PycharmProjects/pythonProject/Unit_Test_Page_Object_Model")
+from Page_Object_Model.Pages.login_page import LoginPage
+import time
 
 
 class TestLogin(unittest.TestCase):
